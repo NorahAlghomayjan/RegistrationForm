@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div> <h1> Registration Form </h1> </div>
+    <div>
+        <form>
+            <div>
+                <!-- 1 -->
+                <label for="firstName"> First Name:*</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <br>
+                <label for="lastName"> Last Name:*</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <br>
+                <label for="Email"> Email:*</label>
+                <input type="email" id="Email" name="Email" required>
+                <br>
+                <label for="password"> Password:*</label>
+                <input type="password" id="password" name="password"required>
+                <br>
+                <label for="confirmPassword"> Confirm Password:*</label>
+                <input type="password" id="confirmPassword" name="password" required>
+                <br>
+                <label for="birthday"> Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <br>
+            </div>
+            <br>
+
+            <div>
+                <!-- 2 -->
+                <label for="gender"> Gender ID: </label>
+                <input type="radio" id="Male" name="gender">
+                <label for="male"> Male </label>
+                <input type="radio" id="Femal" name="gender">
+                <label for="female"> Female </label>
+                <input type="radio" id="Non" name="gender">
+                <label for="non"> Prefer not to answer </label>
+            </div>
+            <br>
+
+            <div>
+                <!-- 3 -->
+                <label for="description"> A short description about myself: </label> <br>
+                <textarea id="description" name="description" rows="4" cols="40s"> </textarea>
+            </div>
+            <br>
+
+            <div>
+                <!-- 4 -->
+                <label for="Lang">Favourite language</label>
+                <select name="languages" id="lang">
+                <option value="javascript">JavaScript</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <!-- 5 -->
+                <input type="checkbox" id="emailUpdates" name="emailUpdates">
+                <label for="emailUpdates"> Yes, I would like to receive periodic email updates. </label>
+            </div>
+            <br>
+
+            <div>
+                <!-- 6 -->
+                <input type="submit" id="create" name="createAccount" value="Create Account">
+            </div>
+            <br>
+
+            <div> <label for="note"> * indicate required field</label> </div>
+
+    </form>
+    </div>
+</body>
+</html>
